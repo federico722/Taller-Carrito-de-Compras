@@ -10,6 +10,7 @@
 
 .taskbar{ 
     display: flex;
+    justify-content: space-between;
     background-color: rgba(225, 19, 93, 1);
     
 }
@@ -27,16 +28,43 @@
 
 }
 
+#search{
+    width: 350px;
+    height: 28px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    font-family: 'Kotta One', serif;
+
+}
+
+input::placeholder{
+    color: white;
+    padding-left: 1px;
+    font-family: 'Kotta One', serif;
+}
+
 .button-styles{
     margin-left: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 6px;
 }
 
 .section-first{
     text-align: center;
+    padding-right: 2%;
 }
 
 .text-first{
     margin-top: 0px;
     margin-bottom: 5%;
     color: white;
+    padding-top: 15%;
+    font-size: 20px;
+    font-family: 'Kotta One', serif;
 }
