@@ -10,23 +10,119 @@
     <title>Carrito de Compras</title>
 </head>
 <body>
-    <div id="taskbar" class="taskbar">
+    <div id="taskbar" class="taskbar"> <!--barra de tareas-->
         <div id="section-second" class="section-second">
-            <h1>COOK AND BUY TODAY</h1>
+            <h1 class="title1">COOK AND BUY TODAY</h1> <!--titulo-->
         </div>
         
 
-        <form id="style-form" class="style-form">
+        <form id="style-form" class="style-form"> <!---Buscador-->
             <!--<label for="search">Buscador:</label>--> 
             <input type="text" id="search" class="search" name="search" placeholder="Buscador">
-            <button id="button-styles" class="button-styles" type="submit">Buscar</button>
+            <button id="button-styles" class="button-styles" type="submit">Buscar</button> <!--Boton buscador-->
         </form>
 
-        <div id="section-first" class="section-first">
+        <div id="section-first" class="section-first"> <!--Menu carrito compras-->
         <p class="text-first">Mi carrito</p>
         <img id="cart-shopping" class="cart-shopping" src="./img/cart-shopping-solid.svg" alt="cart">
         </div>
         
+
+    </div>
+
+    <div id="content" class="content"> <!--Menu productos--->
+    <div class="borderColour">
+        <div class="interiorContent">
+        <div class="Content-Shopping-Cart"> <!--Contenido carrito compras-->
+            <section class="contenedor">
+                <!--Contenedor de los elementos-->
+                <div class="contenedor-items">
+                    <div class="item">
+                        <span class="titulo-item">Sarten Antiadherente</span>
+                        <img src="img/sarten.jpg" alt="" class="img-item">
+                        <p>Sarten Antiadherente de acero inoxidable 32cm de Tefal Expertise</p> 
+                        <span class="precio-items">$94.900</span>
+                        <button class="boton-items">Agregar al Carrito</button>
+                    </div>
+                    <div class="item">
+                        <span class="titulo-item">Juego de 3 Sartenes</span>
+                        <img src="img/juego-de-sartenes.webp" alt="" class="img-item">
+                        <p>Juego de 3 Sartenes Universal Antiadherente L39600 Color Negro</p> 
+                        <span class="precio-items">$25.000</span>
+                        <button class="boton-items">Agregar al Carrito</button>
+                    </div>
+                    <div class="item">
+                        <span class="titulo-item">Sarten Antiadherente</span>
+                        <img src="img/sarten.jpg" alt="" class="img-item">
+                        <p>Sarten Antiadherente de acero inoxidable 32cm de Tefal Expertise</p>
+                        <span class="precio-items">$35.000</span>
+                        <button class="boton-items">Agregar al Carrito</button>
+                    </div>
+                    <div class="item">
+                        <span class="titulo-item">La Night</span>
+                        <img src="img/R.jpg" alt="" class="img-item">
+                        <span class="precio-items">$18.000</span>
+                        <button class="boton-items">Agregar al Carrito</button>
+                    </div>
+                </div>
+            
+                <!-- Carrito de compras-->
+                <div class="carrito">
+                    <div class="header-carrito">
+                        <h2>Tu carrito</h2>
+                    </div>
+            
+                    <div class="carrito-items">
+                        <!---
+                        <div class="carrito-item">
+                            <img src="img/carritoCompras.jpg" alt="" width="80px">
+                            <div class="carrito-item-detalles">
+                                <span class="carrito-item-titulo">Box Engasse</span>
+                                <div class="selector-cantidad">
+                                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                                    <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                                </div>
+                                <span class="carrito-item-precio">$15.000</span>
+                            </div>
+                            <span class="btn-eliminar">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </div>
+            
+                        <div class="carrito-item">
+                            <img src="img/carritoCompras.jpg" alt="" width="80px">
+                            <div class="carrito-item-detalles">
+                                <span class="carrito-item-titulo">English Rose</span>
+                                <div class="selector-cantidad">
+                                    <i class="fa-solid fa-minus restar-cantidad"></i>
+                                    <input type="text" value="2" class="carrito-item-cantidad" disabled>
+                                    <i class="fa-solid fa-plus sumar-cantidad"></i>
+                                </div>
+                                <span class="carrito-item-precio">$30.000</span>
+                            </div>
+                            <span class="btn-eliminar">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </div>
+                        --->
+            
+                    </div>
+                        
+                    <div class="carrito-total">
+                        <div class="fila">
+                            <strong>Tu Total</strong>
+                            <span class="carrito-precio-total">
+                                $000.000,00
+                            </span>
+                        </div>
+                        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+                </div>
+                </section>
+        </div>
+        </div>
+    </div>
 
     </div>
 </body>
